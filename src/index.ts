@@ -19,7 +19,8 @@ export default {
     let redirect = await env.REDIRECTS.get(url);
 
     if (!redirect) {
-      redirect = routes.get(url) ?? defaultRedirect;
+      const lookup = routes.find(item => url.indexOf(item[0]) !== -1);
+      redirect = lookup?.[1] ?? defaultRedirect;
       await env.REDIRECTS.put(url, redirect);
     }
 

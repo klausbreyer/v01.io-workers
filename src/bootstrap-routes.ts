@@ -1,4 +1,4 @@
-export default new Map<string, string>([
+export default [
   ["https://worker-typescript-template.kb9671.workers.dev/", "https://www.v01.io"],
   ["https://v01.io/consulting/", "https://www.v01.io/pages/consulting/"],
   ["https://v01.io/shape-up/", "https://www.v01.io/pages/shape-up/"],
@@ -36,4 +36,4 @@ export default new Map<string, string>([
   ["https://v01.io/2014/03/01/abrechnung-und-vertragsarten-bei-agilen-softwareprojekten/", "https://www.v01.io/posts/abrechnung-und-vertragsarten-bei-agilen-softwareprojekten/"],
   ["https://v01.io/2014/02/21/den-neuen-whatsapp-share-button-implementieren/", "https://v01-hugo.pages.dev/posts/den-whatsapp-share-button-in-html-implementieren/"],
   ["https://v01.io/2014/01/15/was-gute-prozesse-von-schlechten-prozessen-unterscheidet/", "https://www.v01.io/posts/was-gute-prozesse-von-schlechten-prozessen-unterscheidet/"]
-]);
+];
