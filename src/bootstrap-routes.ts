@@ -1,4 +1,6 @@
 export default [
+  ["https://v01.io/sitemap.xml", "https://www.v01.io/sitemap.xml"],
+  ["https://v01.io/robots.txt", "https://www.v01.io/robots.txt"],
   ["https://worker-typescript-template.kb9671.workers.dev/", "https://www.v01.io"],
   ["https://v01.io/consulting/", "https://www.v01.io/pages/consulting/"],
   ["https://v01.io/shape-up/", "https://www.v01.io/pages/shape-up/"],
