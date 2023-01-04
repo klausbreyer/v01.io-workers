@@ -1,0 +1,12 @@
+main = "./src/index.ts"
+name = "v01-io-workers"
+compatibility_date = "2022-07-26"
+
+account_id = "78531bcccbdf82e16d60a37a4857f859"
+workers_dev = true
+route = ""
+kv_namespaces = [
+  { binding = "REDIRECTS", id = "553c73f5276e43b998fdc0b95f21bbe0", preview_id = "16817ceae29f4ee1b0380d922ccaae4d"  },
+  { binding = "COUNTS", id = "05d42843c1ea4c67a0eef9ab1fcf2aa2", preview_id = "4326f5711bea4574ba93ec09879bd2ec"  },
+	{ binding = "REFERERS", id = "4ee10578ee8d4ed1a5ba5f80ae2ed747", preview_id = "0fd5bf832cb34921b80a72ba97313601"  },
+]

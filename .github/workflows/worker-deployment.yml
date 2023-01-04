@@ -1,0 +1,17 @@
+on: [push]
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      deployments: write
+    name: Deploy to Cloudflare
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Publish Worker Refs
+        uses: cloudflare/wrangler-action@2.0.0
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          command: publish src/index.ts
