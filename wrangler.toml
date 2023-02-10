@@ -1,7 +1,7 @@
 main = "./src/index.ts"
 name = "v01-io-workers"
 compatibility_date = "2022-07-26"
-
+node_compat = true
 account_id = "78531bcccbdf82e16d60a37a4857f859"
 workers_dev = true
 route = ""
