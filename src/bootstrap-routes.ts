@@ -1,17 +1,4 @@
-import util from "util";
-
-const wwwPath = "https://www.v01.io/%s/";
-const later = [
-  ["was-gute-prozesse-von-schlechten-prozessen-unterscheidet", "2014-what-distinguishes-good-processes-from-bad-processes"],
-  ["what-distinguishes-good-processes-from-bad-processes", "2014-what-distinguishes-good-processes-from-bad-processes"],
-  ["abrechnung-und-vertragsarten-bei-agilen-softwareprojekten", "2014-billing-contract-types-agile-software-projects"],
-  ["dateiorganisation-und-ordnerstrukturen-in-unternehmen", "2014-file-organization-folder-structures-companies"],
-  ["den-whatsapp-share-button-in-html-implementieren", "2014-implement-whatsapp-share-button-in-html"],
-  ["second-system-effect", "2020-second-system-effect"]
-].map(l => [util.format(wwwPath, l[0]), util.format(wwwPath, l[1])]);
-
-
-const move = [
+export default [
   ["https://v01.io/sitemap.xml", "https://www.v01.io/sitemap.xml"],
   ["https://v01.io/robots.txt", "https://www.v01.io/robots.txt"],
   ["https://worker-typescript-template.kb9671.workers.dev/", "https://www.v01.io"],
@@ -278,5 +265,3 @@ const move = [
   ["https://v01.io/tag/org", "https://www.v01.io/tags/org"],
   ["https://v01.io/tag/engineeringorg", "https://www.v01.io/tags/engineeringorg"]
 ];
-
-export default [...move, later];
